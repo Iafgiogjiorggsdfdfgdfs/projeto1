@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYER DE MÙSICAS</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PLAYER DE MÙSICAS</h1>
+        <p>Escolha sua musica:</p>
+        <ul id="playlist"></ul>
+        <img src="show.jpg" alt="Imagem Quadrada" class="square-image">
+        <div id="musicName" class="music-name"></div>
+        <audio id="player" controls></audio><br><br>
+        <button id="prevButton" onclick="tocarMusicaAnterior()"><< Anterior  </button>
+        <button id="nextButton" onclick="tocarProximaMusica()">  proxima>></button>
+    </div>
+  
+    <script src="scriptradio.js"></script>
+</body>
+</html>
 
