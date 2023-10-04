@@ -1,1 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #05580c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(204, 204, 204);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #64b4ff;
+}
+
+.square-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    margin: 20px ;
+}
+
+.music-name {
+    font-size: 20px;
+    color: #00581d;
+    margin-top: 0px;
+}
+
+button {
+    font-size: 16px;
+    background-color: #000000;
+    color: #d1e212;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #161541;
+}
 
